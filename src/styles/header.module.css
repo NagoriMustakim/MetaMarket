@@ -174,8 +174,8 @@
     width: 120px;
     height: auto;
     position: relative;
-    left: 28%;
-    margin-top: 1.7rem;
+    left: 33%;
+    margin-top: 6rem;
 }
 
 
@@ -187,14 +187,14 @@
     background: #f0f0f0;
     padding: 10px;
     width: 360px;
-    height: 600px;
+    height: 580px;
 }
 
 @media only screen and (max-width: 768px) {
     #logo-container svg {
         width: 120px;
         height: auto;
-        margin-left: 1.2rem;
+        margin-left: 1.3rem;
     }
 }
 
@@ -205,27 +205,28 @@
     border-radius: 30px;
     width: 300px;
     height: 45px;
-    font-size: 1rem
+    font-size: 13px;
+    color: white;
 }
 
 .forgotpswd {
     color: rgb(36, 140, 232);
     margin-top: 1.8rem;
     font-weight: bold;
-    font-size: small;
+    font-size: 12px;
 
 }
 
 .hlp {
     color: rgb(9, 9, 9);
     margin-top: 2.4rem;
-    font-size: small;
-    font-weight: 450;
+    font-size: 12px;
+    font-weight: 250;
 }
 
 .bck {
-    font-weight: bold;
-    color: #3a3939e5;
+    font-weight: 900;
+    color: #151515;
     margin-top: 10px;
 }
 
