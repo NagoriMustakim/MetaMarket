@@ -1,0 +1,305 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #112556;
+    overflow-x: hidden;
+}
+
+.header {
+    background: linear-gradient(111deg, #EFCECE 61.20%, #EFCECE 81.25%, #F9B1E9 100%);
+}
+
+.new {
+    background-color: #f0d0f8;
+}
+
+.service {
+    background: linear-gradient(139deg, #F9B1E9 7.58%, #EFCECE 49.89%, #F9B1E9 100%);
+}
+
+.partner {
+    background: linear-gradient(180deg, #F7AEF8 0%, #D6F0CC 100%);
+}
+
+.bg {
+    background: linear-gradient(#FFB1B1, #FBFBFB, #FFFFFF);
+}
+
+.bg {
+    background: linear-gradient(#abd6eb, #98cff1, #47a8f7);
+}
+
+.h {
+    background-color: #ffe4f3;
+}
+
+.btn {
+    color: #FFF;
+    font-size: 1.2rem;
+    font-weight: 400;
+    border-radius: 1.3rem;
+    background-color: #112556;
+    width: 11rem;
+    height: 3.5rem;
+}
+
+.btn:hover {
+    background-color: #47a8f7;
+    color: black;
+}
+
+.recbtn {
+    color: #FFF;
+    font-size: 1.2rem;
+    font-weight: 400;
+    border-radius: 12px;
+    background-color: #112556;
+    width: 9rem;
+    height: 3.5rem;
+    position: relative;
+    padding: 0.9rem;
+    top: -300%;
+    right: 90%;
+}
+
+.recbtn:hover {
+    background-color: #47a8f7;
+    color: black;
+}
+
+.buy {
+    position: relative;
+    top: -300%;
+}
+
+.shadow {
+    filter: drop-shadow(4px 4px 8px rgba(0, 0, 0, 0.488));
+}
+
+.now {
+    position: relative;
+    right: -130%;
+
+}
+
+.by {
+    position: relative;
+    top: -65%;
+}
+
+.popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 9999;
+}
+
+.popupc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.popupc input {
+    margin-bottom: 10px;
+}
+
+.popupc button {
+    padding: 10px 20px;
+}
+
+@media (min-width: 1000px) and (max-width: 1200px) {
+    .buy {
+        top: -230%;
+        width: fit-content;
+    }
+
+    .recbtn {
+        top: -150%;
+        right: 85%;
+
+    }
+}
+
+@media (min-width: 1000px) and (max-width: 1100px) {
+    .buy {
+        top: -200%;
+        width: fit-content;
+
+    }
+
+    .recbtn {
+        top: -150%;
+        right: 85%;
+    }
+}
+
+@media (min-width: 1100px) and (max-width: 1200px) {
+    .buy {
+        top: -240%;
+        width: fit-content;
+
+    }
+
+    .recbtn {
+        top: -170%;
+        right: 85%;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1400px) {
+    .buy {
+        top: -220%;
+        width: fit-content;
+    }
+
+    .recbtn {
+        top: -210%;
+        right: 87%;
+    }
+}
+
+@media (min-width: 1400px) and (max-width: 1500px) {
+    .buy {
+        top: -320%;
+        width: fit-content;
+    }
+
+    .recbtn {
+        top: -250%;
+        right: 90%;
+    }
+}
+
+.logocontainer svg {
+    width: 115px;
+    height: auto;
+    position: relative;
+    left: 33%;
+    margin-top: 3rem;
+}
+
+
+.popupm {
+    overflow: hidden;
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    padding: 10px;
+    width: 340px;
+    height: 580px;
+}
+
+@media only screen and (max-width: 768px) {
+    #logo-container svg {
+        width: 120px;
+        height: auto;
+        margin-left: 1.3rem;
+    }
+}
+
+.unlockbtn {
+    margin-top: 1.7rem;
+    margin-left: 1.3rem;
+    background-color: rgb(5, 121, 193);
+    border-radius: 30px;
+    width: 285px;
+    height: 55px;
+    font-size: 13px;
+    color: white;
+}
+
+.forgotpswd {
+    color: rgb(36, 140, 232);
+    margin-top: 1.8rem;
+    font-weight: bold;
+    font-size: 12px;
+
+}
+
+.hlp {
+    color: rgb(9, 9, 9);
+    margin-top: 2.4rem;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.bck {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    color: rgba(21, 19, 19, 0.756);
+    margin-top: 10px;
+}
+
+.errormessage {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+
+
+}
+
+@media only screen and (max-width: 350px) {
+    .hlp {
+        width: 15rem;
+        margin-top: 2.3rem;
+        font-size: small;
+        font-weight: 450;
+    }
+}
+
+.customloader {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    left: 40%;
+    top: 35%;
+    display: none;
+    border-radius: 50%;
+    -webkit-mask: radial-gradient(farthest-side, #0000 40%, #000 41%);
+    background:
+        linear-gradient(0deg, #F4B28080 50%, #F4B280FF 0) center/6px 100%,
+        linear-gradient(90deg, #F4B28040 50%, #F4B280BF 0) center/100% 6px;
+    background-repeat: no-repeat;
+    animation: s3 1s infinite steps(12);
+}
+
+.loadertrue {
+    display: grid;
+}
+
+.main {
+    opacity: 0.4;
+}
+
+.customloader::before,
+.customloader::after {
+    content: "";
+    grid-area: 1/1;
+    border-radius: 50%;
+    background: inherit;
+    opacity: 0.915;
+    transform: rotate(30deg);
+}
+
+.customloader::after {
+    opacity: 0.83;
+    transform: rotate(60deg);
+}
+
+@keyframes s3 {
+    100% {
+        transform: rotate(1turn)
+    }
+}
